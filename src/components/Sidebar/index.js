@@ -15,9 +15,9 @@ function Sidebar({isMenuOpen,toggleMenu}) {
         <CloseIcon />
       </Icon>
       <SidebarMenu>
-        <SidebarLink to="/">Pizzas</SidebarLink>
-        <SidebarLink to="/">Desserts</SidebarLink>
-        <SidebarLink to="/">Ful Menu</SidebarLink>
+        <SidebarLink to="/burgers">Burgers</SidebarLink>
+        <SidebarLink to="/">Today's Special</SidebarLink>
+        <SidebarLink to="/desserts">Desserts</SidebarLink>
       </SidebarMenu>
       <SideBtnWrap>
         <SidebarRoute to="/">Order Now</SidebarRoute>

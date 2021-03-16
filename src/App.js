@@ -17,7 +17,7 @@ function App() {
           data={mainProducts}
         ></Products>
         <FeatureProduct />
-        <Products heading="Your healthy Salad" data={sideProducts}></Products>
+        <Products  heading="Your tasty Dessert" data={sideProducts}></Products>
         <Footer />
       </div>
     </Router>
